@@ -1,0 +1,12 @@
+{
+    "service": {
+      "name": "thirdparty",
+      "tags": [
+        "thirdparty"
+      ],
+      "port": 3002,
+      "connect": {
+        "sidecar_service": {}
+      }
+    }
+  }
